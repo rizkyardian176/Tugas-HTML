@@ -12,7 +12,7 @@ caption { position: absolute; left: -9999px; }
 
 .grade-a { border: 1px solid #777; border-collapse: separate; border-spacing: 2px; font-size: 14px; }
 .grade-a th, .grade-a td { border: 1px solid #777; padding: 3px 6px; }
-.grade-a thead th { font-weight: normal; }
+.grade-a thead th { font-weight: bold; }
 .grade-a td:last-child { font-weight: bold; }
 
 .grade-b { border-collapse: collapse; background: #f2f2f2; max-width: 600px; }

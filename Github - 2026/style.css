@@ -1,1 +1,25 @@
+body {
+  font-family: "Times New Roman", Times, serif;
+  margin: 24px;
+  background: #ffffff;
+  color: #000;
+}
+h1 { font-family: Arial, sans-serif; }
+nav { margin-bottom: 24px; font-family: Arial, sans-serif; }
+nav a { margin-right: 12px; }
+table { width: 100%; max-width: 720px; text-align: center; }
+caption { position: absolute; left: -9999px; }
 
+.grade-a { border: 1px solid #777; border-collapse: separate; border-spacing: 2px; font-size: 14px; }
+.grade-a th, .grade-a td { border: 1px solid #777; padding: 3px 6px; }
+.grade-a thead th { font-weight: normal; }
+.grade-a td:last-child { font-weight: bold; }
+
+.grade-b { border-collapse: collapse; background: #f2f2f2; max-width: 600px; }
+.grade-b th, .grade-b td { border: 1px solid #333; padding: 5px 8px; font-weight: normal; }
+.grade-b .judul { background: #5b8def; color: #fff; font-weight: bold; }
+
+.grade-c { border-collapse: collapse; max-width: 640px; }
+.grade-c th, .grade-c td { border: 1px solid #000; padding: 6px 10px; }
+.grade-c thead th { background: #5b8def; color: #fff; }
+.grade-c tbody th { font-weight: normal; }
